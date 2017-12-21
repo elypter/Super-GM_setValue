@@ -6,7 +6,7 @@
 *****   handle any javascript variable type.
 *****
 *****   Add it to your GM script with:
-*****       // @require https://raw.githubusercontent.com/elypter/Super-GM_setValue/master/super-gm_setvalue
+*****       // @require https://raw.githubusercontent.com/elypter/Super-GM_setValue/master/super-gm_setvalue.user.js
 *****
 *****
 *****   Usage:
