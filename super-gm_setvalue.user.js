@@ -1,9 +1,24 @@
+// ==UserScript==
+// @name            Super_GM_setValue_and_GM_getValue lib
+// @description     Extends the GM_setValue and GM_getValue functions for any javascript variable type.
+// @namespace       super_gm_set&get
+// @author ScriptKeeper
+// @grant    GM.getValue
+// @grant    GM.setValue
+// @version 3
+// updateURL https://github.com/elypter/Super-GM_setValue/raw/master/super-gm_setvalue.user.js
+// downloadURL https://github.com/elypter/Super-GM_setValue/raw/master/super-gm_setvalue.user.js
+// ==/UserScript==
+
 /***************************************************************************************
 ****************************************************************************************
 *****   Super GM_setValue and GM_getValue.js
 *****
 *****   This library extends the Greasemonkey GM_setValue and GM_getValue functions to
 *****   handle any javascript variable type.
+*****
+*****   from https://greasyfork.org/en/scripts/3667-super-gm-setvalue-and-gm-getvalue-js/code and originally from userscripts.org
+*****   updated by elypter. changes under GPL3.
 *****
 *****   Add it to your GM script with:
 *****       // @require https://raw.githubusercontent.com/elypter/Super-GM_setValue/master/super-gm_setvalue.user.js
@@ -17,13 +32,6 @@
 *****       GM_SuperValue.runTestCases  (bUseConsole);
 *****
 */
-// ==UserScript==
-// @name            Super_GM_setValue_and_GM_getValue.js
-// @description     Extends the GM_setValue and GM_getValue functions for any javascript variable type.
-// @namespace       userscripts-mirror.org/users/158640
-// @grant    GM.getValue
-// @grant    GM.setValue
-// ==/UserScript==
 
 var GM_SuperValue = new function () {
 
